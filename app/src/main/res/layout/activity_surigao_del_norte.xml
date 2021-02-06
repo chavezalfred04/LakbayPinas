@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SurigaoDelNorte"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/surigaodelnorte"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="SURIGAO DEL NORTE"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="Surigao del Norte serves as an important transportation hub between Visayas and Mindanao. Numerous ferries cross the Surigao Strait to and from the island of Leyte in the Visayas carrying vehicles and passengers. Aside from the mainland, the province comprises two major islands – Siargao and Bucas Grande in the Philippine Sea."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Capital: Surigao City"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Top tourist spots: Siargao, Cloud 9, island-hopping in Siargao (Guyam, Daku and Naked Island), Bucas Grande, Sohoton Cove, Magpupungko, Sugba Lagoon, Tiktikan Lake, Mabua Pebble Beach, Silop Cave"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Unique eats: sayongsong (rice delicacy wrapped in banana leaves), poot poot ginamos, kinilaw, Gigaquit Rhum (similar to tuba), dried pijanga"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Memorable travel highlight: Solo ride on a semi-automatic motorcycle around the island (first trip in 2012)"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

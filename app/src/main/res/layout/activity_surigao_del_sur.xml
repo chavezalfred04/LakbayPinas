@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SurigaoDelSur"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/surigaodelsur"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SURIGAO DEL SUR"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="Surigao del Sur is situated at the eastern coast of Mindanao and faces the Philippine Sea to the east. Surigao del Sur is one of the suppliers of rice, bananas and other tropical fruits. The Mindanao Deep, one of the deepest trenches in the world, is situated a few kilometers east of the coastline."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Capital: Tandag City"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Top tourist spots: Tinuy-an Falls, Enchanted River in Hinatuan, Britania Group of Islands, surf spots in Cantilan and Lanuza"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Unique eats: fish tinola, sayongsong, biko, puto, nilupak"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Memorable travel highlights: 5-hour long bus ride from Surigao City to Bislig (I mistakenly thought it was near); Habal-habal ride in the dark to visit Tinuy-an Falls"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

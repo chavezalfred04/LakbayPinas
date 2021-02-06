@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AgusanDelNorte"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/agusandelnorte"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="AGUSAN DEL NORTE"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="Agusan del Norte is still largely an agricultural province, with major crops of rice, corn, coconut, abaca and bananas. The port city of Butuan (the regional center) is best known for the balangays (ancient large sailing vessels) which were unearthed there. Agusan River, the third longest river in the country, used to serve as a highway for Spanish colonizers in gaining access to inner northeastern Mindanao."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Capital: Cabadbaran"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Top tourist spots: Agusan River (longest river in Mindanao), Butuan National Museum, Delta Discovery Park, Balangay Shrine Museum"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Unique eats: Kilawin, pao (local root crop dipped in coconut jam), tumpi (chewy delicacy made of coconut, laksoy (liquor made from the sap of nipa palms)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Memorable travel highlight: Ziplining in Delta Discovery Park; long bus ride from Surigao del Sur to Butuan"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

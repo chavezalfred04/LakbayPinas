@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DavaoDelNorte"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/davaodelnorte"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DAVAO DEL NORTE"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="Davao del Norte is known as “the banana capital of the Philippines.” This province includes Samal Island, a small tourist-friendly island just 2 km from Davao city to the south in the Davao Gulf, which is known for its beach resort and dive spots."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Capital: Tagum"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Top tourist spots: Island Garden City of Samal, Samal Island, Pearl Farm Beach Resort, Banana Beach Resort, Talikud Island"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Unique eats: durian, kinilaw na tuna, sinuglaw, durian pie, durian shake, durian ice cream, marang"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Memorable travel highlights: Instant noodles dinner by the pier because restaurants were closed during a solo trip; staying overnight in Samal Island"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

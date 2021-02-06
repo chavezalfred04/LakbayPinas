@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CamarinesSur"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/camarinessur"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CAMARINES SUR"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="Camarines Sur is the largest among the six provinces in the Bicol Region. On the eastern portion of the province, you can find the Caramoan Peninsula and islands made popular worldwide by the reality show Survivor. Within the province lies Lake Buhi, where the smallest commercially harvested fish, the Sinarapan (Mistichthys luzonensis), can be found. It’s also known for its old churches and Mt. Isarog."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Capital: Pili"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Top tourist spots: Caramoan Islands, CWC Wakeboard Complex, Penafrancia Basilica, Mt. Isarog National Park, Malabsay Falls, Lake Buhi"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Unique eats: Kinalas, Toasted siopao, putong bagas, sinantol (ground santol meat with gata)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Memorable travel highlights: Spending Christmas island-hopping around Caramoan with family"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EasternSamar"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/easternsamar"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EASTERN SAMAR"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="Eastern Samar occupies the eastern portion of the large island of Samar. Because of its location facing the Philippine Sea to the east, part of the vast Pacific Ocean, and the Leyte Gulf to the south, it frequently suffers from powerful typhoons. Eastern Samar has a significant history of the country’s rich colonial history through the island of Homonhon, where Ferdinand Magellan first set foot on Philippine soil in 1521 on his way to conquer the Philippines for the western world."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Capital: Borongan"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Top tourist spots: Baybay Beach, Divinubo Island, Linao Cave, Homonhon Island, Guian World War II Operating Base, Calicoan Island"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Unique eats: moron/bakintol (ground rice suman with chocolate), salukara (crepe-like delicacy that uses young coconut)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Personal travel highlights: samar loop ride"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

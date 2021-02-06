@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Antique"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/antique"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ANTIQUE"
+                android:textSize="30sp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="Antique is a laid-back province on Panay Island that has lots to offer those looking for raw and rugged adventures. Its tagline is “where the mountain meets the sea” and you can find riverside jungle hot tubs, beautiful uncrowded beaches, rice terraces hidden in remote mountain villages, multi-level waterfalls, clear rivers and springs, mountain highlands and stunning karst cliffs and more here."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Capital: San Jose de Buenavista"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Top tourist spots: Kawa Bath in Tibiao, Mararison Island, Seco Island, Nogas Island, Aningalan Highlands Strawberry Garden, Igbaclag Cave, Malumpati Cold Spring, Naranjo Water Park, Anini-y Church "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Unique eats: Chicken Papisik (native chicken stuffed with local herbs and spices), porbida (similar to adobo but makes use of coconut milk), Tibiao’s pangyam-is (dessert made from glutinous rice and root crops, best paired with muscovado sugar)."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Memorable travel highlights: Hiking up Antique Rice Terraces; 3-hour long boat ride on a cargo ship to visit Seco Island; cliff scrambling up Igbaclag Cave; waking up at 3am to take photos of stars; drinking craft beer while soaking in a kawa"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

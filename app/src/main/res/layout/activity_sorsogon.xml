@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sorsogon"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/sorsogon"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SORSOGON"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="Sorsogon is the southernmost province in Luzon with striking volcanic topography and a few little-known beaches, lakes, hot springs and waterfalls. Located at the tip of the Bicol Peninsula facing the island of Samar to the southeast, Sorsogon is the gateway of Luzon to the Visayas and Mindanao through its Roll-on/Roll-off ferry terminal facilities."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Capital: Sorsogon City"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Top tourist spots: Mt. Bulusan, Bulusan Volcano National Park, Paguriran Island and Lagoon, Whaleshark encounters, Pink sand beaches of Subic in Matnog, Irosin Hot Springs, Barcelona Ruins and Church"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Unique eats: suman, binut-ong, baluko (pen shell), kinagang, timitim, santan (coco jam), sikad-sikad and dalu-dalo (conches or sea shells)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Memorable travel highlights: R0ad trip with family to Sorsogon tourist spots; staycation at Siama Hotel"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

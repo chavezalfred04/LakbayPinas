@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quezon"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/quezon"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="QUEZON"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="Quezon is a province southeast of Metro Manila, known for its mountains and vast coconut plantations. Mount Banahaw, one of the most sacred sites during pre-colonial times, is a major tourism draw and well-known pilgrimage site. Part of Quezon province connects the Bicol Peninsula to the main part of Luzon. Quezon also includes Polillo Islands in the Philippine Sea, which has remote, but beautiful beaches."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Capital: Lucena"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Top tourist spots: Mount Banahaw, Pahiyas Festival every May, Villa Escudero, Kamay ni Hesus Shrine, Jomalig Island, Balesin (an exclusive island resort)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Unique eats: Pancit Habhab, Lucban Longganisa, kiping (rice wafers), kulawong talong (grilled eggplant with burnt coconut cream), Pancit Buco (using fresh coconut meat)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Memorable travel highlights: Dining at the foot of a waterfall in Villa Escudero; long motorcycle ride from Manila to Bicol passing the zigzag road in Atimonan"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

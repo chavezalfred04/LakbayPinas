@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Albay"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/albay"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ALBAY"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="Albay is best known for being the home of Mayon Volcano, a perfectly symmetrical active stratovolcano visible throughout most cities of the province. Albay has various natural wonders, including caves, waterfalls, beaches, and is known for its delectable cuisine and local industries."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Capital: Legazpi City   "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Top tourist attractions: Mayon Volcano, Cagsaua Ruins, Sumlang Lake, Daraga Church, Lignon Hill Nature Park, Kawa Kawa Hill, Hoyop-Hoyopan Cave, Quitinday Hills"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Unique eats: Bicol Express, laing, pinangat from Camalig, Sili ice cream and Sili Shake, Guinobatan Longganiza, pili nut delicacies"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Memorable travel highlights: Day trip rides from Naga City to Legazpi City passing Tiwi-Sangay; ATV experience in Mayon; Biking through lahar terrain; various road trips with family"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

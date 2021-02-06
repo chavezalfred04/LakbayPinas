@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NuevaVizcaya"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/nuevavizcaya"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NUEVA VIZCAYA"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="Nueva Vizcaya is usually considered by many local tourists as a transit town. Nicknamed the “Citrus Capital of the Philippines,” the landlocked province is bounded by three mountain ranges – the Sierra Madre, Cordillera, and Caraballo. Nueva Vizcaya is an ideal destination for outdoor enthusiasts looking for an uncrowded destination for hiking and biking."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Capital: Bayombong"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Top tourist spots: Mt. Pulag, Dalton Pass, Lower Magat Eco-Tourism Park, Imugan Falls, Capisaan Cave System, Mt. Ugo, Church of San Vicente Ferrer, St. Dominic Cathedral"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Unique eats: Vizcaya ponkan, Perante oranges"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Memorable travel highlights: Rainy hike to Mt. Pulag; side trip to Imugan Falls after visiting Apayao"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

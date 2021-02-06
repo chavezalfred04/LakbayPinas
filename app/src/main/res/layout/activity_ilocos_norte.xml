@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IlocosNorte"
+    android:background="@color/white">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/ilocosnorte"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ilocos_norte"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ilocos Norte is famous for its historical and cultural landmarks, Spanish colonial buildings, Baroque churches and great Ilocano dishes. It’s known as the birthplace of the former President Ferdinand E. Marcos. Top things to do here are visit heritage sites, churches and museums, go food-tripping or try sandboarding and 4 x 4 off road adventures at the La Paz Sand dunes."
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Capital: Laoag City"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Top tourist attractions: Paoay Church, Cape Bojeador Lighthouse, Patapat Viaduct, La Paz Sand Dunes, Bangui Wind Farm, Kapurpurawan Rock Formation, beaches of Pagudpud, Blue Lagoon, Malacanang of the North."
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Unique eats: Bagnet, longganisa, poqui-poqui, pinakbet, Batac Empanada"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Memorable travel highlights: Sandboarding and 4 x 4 adventure at La Paz Sand Dunes"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

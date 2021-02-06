@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SouthCotabato"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/southcotabato"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SOUTH COTABATO"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="South Cotabato is often associated with the T’nalak, the native textile woven by the local T’boli tribal women from abaca strips. The fabric has come to symbolize the blending of culture, strength, and unity of the various ethnic groups living in the province. It’s been dubbed as the “Land of the Dreamweavers.”"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Capital: Koronadal"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Top tourist spots: Lake Sebu, Seven Falls, Lake Holon, Mount Melibengoy, Mount Matutum, Queen Tuna Park, T’boli Museum, T’nalak Festival, Surallah Rotunda"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Unique eats: Tilapia cooked in various ways (fried, curried, with coconut milk, etc.), sinanglay (fish wrapped in cabbage and cooked in coconut milk), tilapia sisig, T’boli meal (rice packed in leaves), native chicken cooked in bamboo, native coffee, forest wine"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Memorable travel highlights: Riding a zipline over waterfalls (best zipline I’ve tried in the country so far); Driving a rented motorcycle on off-road terrain to hike to Lake Holon"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

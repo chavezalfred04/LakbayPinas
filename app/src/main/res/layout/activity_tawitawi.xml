@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tawitawi"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/tawitawi"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TAWI-TAWI"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="Tawi-Tawi is the southernmost province of the Philippines. It lies at the southwestern tip of the country and shares sea borders with the Malaysian State of Sabah and the Indonesian East Kalimantan province. It covers some islands in the Sulu Sea to the northwest, including Turtle Islands, just 20 km from Sabah."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Capital: Bongao"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Top tourist spots: Bud Bongao (Bongao Peak), Sheik Makhdum Mosque in Simunul Island, Tawi-Tawi Provincial Capitol, Bolobok Cave and Beach, Panampangan Island, Sitangkai (Southernmost settlement of the Philippines)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Unique eats: Tiyulah Itum (beef stew with broth made from burnt coconut meat), Junay (rice steamed in coconut milk and toasted coconut), Baolu (sweet mini-muffins)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Memorable travel highlights: Encountering wild monkeys while hiking up the sacred mountain of Bud Bongao"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

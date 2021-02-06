@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cebu"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/cebu"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CEBU"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="Cebu is one of the most developed provinces in the Philippines for tourism and serves as the main center of commerce, trade, education and industry in the Visayas. Its capital Cebu City is the oldest city and first capital of the Philippines, which is politically independent from the provincial government. It’s known mainly for its historic sites in the city and eco-tourism attractions in the north and south of the island."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Capital: Cebu City"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Top tourist spots: Magellan’s Cross, Fort San Pedro, Basilica Minore del Santo Nino, Cebu Taoist Temple, Kawasan Falls, Osmena Peak, Batnayan Island, Tops Lookout, Temple of Leah, Sirao Garden, Lapu Lapu Shrine"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Unique eats: Lechon, dried mango, puso (native rice), dried fish, tuslob-buwa, otap"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Memorable travel highlights: Having to ship my motorcycle from Manila to explore Cebu for Wrangler True Wanderer 2016; joining up with a group of people to try canyoneering at Kawasan Falls; rock climbing in Toledo"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

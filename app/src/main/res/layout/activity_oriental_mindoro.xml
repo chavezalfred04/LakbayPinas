@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrientalMindoro"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/orientalmendoro"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ORIENTAL MINDORO"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="Oriental Mindoro is one of the country’s emerging eco-tourism destinations. It’s here where you can find the center of marine fish biodiversity and the home of the most diverse marine ecosystem in the world. Puerto Galera, located at the north-westernmost part of the province, is one of the most popular tourist destinations for locals, accessible by ferry rides from Luzon via the Batangas ports."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Capital: Calapan"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Top tourist spots: Puerto Galera, Sabang Beach, Tamaraw Falls, Talipanan Beach, Mangyan Heritage Village in Mansalay, Bulalacao"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Unique eats: Suman sa Lihiya with coco jam, seaweed instant noodles, Mindoro Sling (Puerto Galera’s signature cocktail), Lamayo pizza"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Memorable travel highlights: First trip to Puerto Galera a decade ago; Road trip to Bulalacao in a coaster van with videoke; returning for Mindoro Loop Ride"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LaUnion"
+    android:background="@color/white">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/launion"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="La Union"
+                android:textSize="30sp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="La Union is a vibrant coastal province known mainly for its surf scene. It’s a popular weekend beach getaway for those based in the metro. You can take surfing lessons, go hiking and cliff-jumping to scenic waterfalls, go grape-picking, enjoy the lively food scene and spectacular sunsets by the beach."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Capital: San Fernando"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Top tourist spots: Beaches along San Juan, Ma-Cho Temple (Taoist Temple), Luna Pebble Beach, Tangadan Falls, Grape Farms in Bauang, Thunderbird Resort, PUGAD Pugo Adventure"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Unique eats: Halo-halo de Iloko, La Union Fried Chicken, Ilocos Norte Burrito (stuffed with Vigan longganiza), kilawen"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Memorable travel highlights: Cliff-jumping in Tangadan Falls; hanging out by the beach and just watching the sunset (various visits); experiencing the “van life” at Vessel Hostel"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ifugao"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/ifugao"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IFUGAO"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="The landlocked province of Ifugao gets its name from the term i-pugo, which translates to “people of the hill”. It’s home to the Rice Terraces of the Philippine Cordilleras (also known as the Banaue Rice Terraces) which are believed to have been hand-carved into the mountains 2,000 years ago to plant rice. Five designated sites here are considered UNESCO World Heritage Sites."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Capital: Lagawe"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Top tourist spots: Banaue View Deck, Banaue Rice Terraces, Tappiya Falls, Nagacadan rice terraces in Kiangan, Hungduan rice terraces, Mayoyao rice terraces, Batad rice terraces, Bangaan rice terraces, Highest Point in the Philippine Highway System in Kiangan"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Unique eats: Pinikpikan, Ifugao coffee"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Memorable travel highlight: Driving a motorcycle from Sagada to Banaue Rice Terraces and back on a day trip"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

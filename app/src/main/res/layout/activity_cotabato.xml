@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cotabato"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/cotabato"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="COTABATO"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="Cotabato (colloquially known as North Cotabato) is a landlocked province politically located in the Mindanao region of Soccskargen, though some of its barangays are under the jurisdiction of the nearby Bangsamoro Autonomous Region. Cotabato derives its name from the Maguindanao word kuta wato, meaning “stone fort.”"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Capital: Kidapawan"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Top tourist spots: Asik-Asik Falls in Alamada, Mt. Apo (via Kidapawan City, Magpet and Makilala trails), Ligusan Marsh, Fort Pikit, Kabakan Caves, Skyline Mountain Resort"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Unique eats: baye-baye (delicacy made from coconut water, grated coconut meat, toasted pinipig), tinagtag (Maguindanaon delicacy made of ground rice and sugar), native chicken barbecue, pastil (steamed rice and shredded chicken then wrapped with banana leaf), lanzones, mangosteen, rambutan"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Memorable travel highlight: Making it to Asik-Asik Falls after a long hike just as it was getting dark after our van got stuck in the mud on the rough road going there"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

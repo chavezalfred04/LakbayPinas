@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Isabela"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/isabela"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ISABELA"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="Isabela is the second largest province of the Philippines and the largest in Luzon in terms of land area. It’s considered the “rice and corn granary of Luzon,” and remains mainly agricultural. The more accessible mainland is home to various natural eco-tourism attractions, while the premiere spots with beautiful white sand beaches and islands are located in the isolated portion in the coastal region, cut off by the Sierra Madre Mountain ranges."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Capital: Ilagan City"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Top tourist spots: Magat Dam, giant armchair in Ilagan, Ilagan Sanctuary, Sta. Victoria Caves, Tumauini Church, San Pablo Church and Ruins, Divilacan, Palanan"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Unique eats: Pancit Cabagan, various kakanin or rice delicacies (binallay, inatata, moriecos, etc.), corn coffee, corn pastillas"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Memorable travel highlights: Hiking to a remote waterfall where we encountered two large snakes"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

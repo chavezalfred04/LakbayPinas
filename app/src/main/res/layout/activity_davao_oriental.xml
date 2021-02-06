@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DavaoOriental"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/davaooriental"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DAVAO ORIENTAL"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="Davao Oriental is the easternmost province of the country, facing the Philippine Sea and part of the Pacific Ocean. Famous for its white sand beaches and waterfalls, the province is also home to Mount Hamiguitan Wildlife Sanctuary, a UNESCO World Heritage Site."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Capital: Mati"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Top tourist spots: Aliwagwag Falls, Dahican Beach in Mati, Ultralight Flying from Mati airport, Sleeping Dinosaur View Deck, Blue Bless Beach Resort Aqua Park, Subangan Museum, Baywalk area"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Unique eats: sinuglaw, grilled tuna, buttered bagaybay, Mati’s Brew coffee, Mati empanada (pastry filled with ground pork, eggs, cheese, and spices), lumpia made from ubod (coconut heart)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Memorable travel highlights: Riding an Ultralight plane over Dahican Beach; motorcycle ride to Sleeping Beauty Mountain"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Camiguin"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/camiguin"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CAMIGUIN"
+                android:textSize="30sp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="Dubbed “The Island Born of Fire,” Camiguin is an island province with volcanic origins. It’s currently the second smallest province in the country after Batanes. But despite its compact size, this lovely island has a lot of natural sites to offer from sea to summit and all around the island."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Capital: Mambajao"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Top tourist spots: Sunken Cemetery, Ruins, White Island, Mantigue Island Nature Park, Mt. Hibok-Hibok, Ardent Springs, Sto. Nino Cold Spring, Soda Water Park, Katibawasan Falls, Tuasan Falls,"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Unique eats: lanzones, pastel, lechon de Camiguin, Hibok-Hibok Express, Kiping (crispy wafer made from dried sweet potatoes), latik, nilabog (local cooler made with coconut strips, milk, crushed biscuits, peanuts), piniato (peanut brittle bars glazed with honey)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Memorable travel highlight: Camping overnight and hiking up Mt. Hibok-Hibo; taking a joyride loop of the whole island by motorcycle"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

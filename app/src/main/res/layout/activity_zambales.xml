@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Zambales"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/zambales"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ZAMBALES"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="Zambales is the second largest among the seven provinces of Central Luzon after Nueva Ecija. It’s known for its sweet mangoes, which are abundant from January to April. Zambales has become a go-to destination for weekend travelers since it’s just a few hours’ away from Metro Manila and offers a variety of natural attractions from beaches to hiking trails. The Freeport Zone contains many casinos, parks, malls, beach-side huts, cottages, resorts, historical sites and a bay popular for yachting."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Capital: Iba"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Top tourist spots: Subic Bay, Subic Bay Freeport Zone, Olongapo, Mt. Pinatubo Crater Lake (via Botolan), Crystal Beach, Anawangin Cove, Nagsasa Cove, Magalawa Island, Potipot Island"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Unique eats: Zambales mangoes, mango nectar, mango tart, mango wine, mango pie and cookies, jam and dried mango, polvoron from Casa San Miguel"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Memorable travel highlights: Living the high life on a yacht; having to push a boat at night to get to an island because of low tide"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

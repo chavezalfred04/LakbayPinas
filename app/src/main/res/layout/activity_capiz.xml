@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Capiz"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/capiz"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CAPIZ"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="Capiz is a rising eco-tourism province that has a lot to offer for different types of travelers. History buffs can visit sites of historic and religious interest, nature-trippers can venture out and explore the off-the-beaten natural tourist spots like islands and waterfalls, while culture buffs can enjoy the province’s rich handicrafts. Its capital Roxas City is known as the “seafood capital of the country” and a great place for foodies."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Capital: Roxas City"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Top tourist spots: Santa Monica Church , Pan-ay Bell, Baybay Beach, Palina Greenbelt River Tour, Cadimahan Libotong River Cruise, Ang Panublion Museum, Culajao Mangrove Eco-Park, Suhot Cave and Spring in Dumalag"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Unique eats: diwal (angelwing clams), baked scallops, Kapis Aligue, mud crabs, puyoy (fried eels)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Memorable travel highlights: Eating baked scallops in the plaza; sharing travel horror stories while drinking Gold Eagle Beer; hiking to remote waterfalls in the middle of an army reservation"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

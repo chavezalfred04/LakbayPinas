@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Masbate"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/masbate"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MASBATE"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="The province of Masbate is one of the oldest settlements in the country, with rolling, hilly and mountainous terrain and rugged topography. It consists of three major islands: Masbate Island, Ticao and Burias. Masbate City, the capital of the province, is known as “The Rodeo Capital of the Philippines.”"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Capital: Masbate City"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Top tourist spots: Rodeo Masbateño, Buntod Reef Marine Sanctuary, Burubancaso Rock Formation, Catandayagan Falls, Sese Brahman’s Ranch, Mangrovetum, Burias, Tinalisayan Islets, Animasola Rock Formations"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Unique eats: Masbate beef, flavored fresh cow’s milk , carmelado (a type of pastillas made from carabao’s milk), molido (dessert made from sweet potato and pili nuts)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Memorable travel highlights: Witnessing Masbate’s Rodeo Festival; side trip to Buntod Reef Marine Sanctuary"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

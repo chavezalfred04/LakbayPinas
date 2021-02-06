@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Palawan"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/palawan"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PALAWAN"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="Palawan is an archipelagic province and one of the most biodiverse (terrestrial and marine) islands in the Philippines. It has been ranked as one of the most beautiful islands in the world and best island destinations in East and Southeast Asia by international publications because of its beautiful natural seascapes and landscapes. Palawan is the largest province in the country in terms of the total area of jurisdiction. There’s currently a move to split it up into three separate provinces."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Capital: Puerto Princesa"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Top tourist spots: Puerto Princesa Subterranean National Park, Coron Reefs, Coron Bay, Kayangan Lake, El Nido, Calauit Game Preserve and Wildlife Sanctuary, Tubbataha Reef Marine Park, San Vicente White Beach"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Unique eats: Tamilok, Crocodile sisig, Chao Long, Nocnoc’s Halo-Halo"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="•	Memorable travel highlights: Cliff-climbing in El Nido; island-hopping around secret beaches and lagoons; driving from Puerto Princesa to El Nido and back"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
